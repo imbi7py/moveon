@@ -8,7 +8,7 @@ app.config['SOCIAL_FACEBOOK'] = {
 
 @app.route('/')
 def index():
-    reterun "Hello, World!"
+    return "Hello, World!"
 
 if __name__ == '__main__':
    app.run()
